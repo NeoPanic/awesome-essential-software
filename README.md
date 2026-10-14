@@ -2,7 +2,7 @@
 
 > ⚠️ **Disclaimer:** This list is provided for educational and informational purposes only. The maintainer does not host, endorse, or take responsibility for the content found on third-party websites. Use these tools responsibly and in compliance with your local laws. ⚖️
 
-A highly curated collection of essential open-source software, sysadmin tools, and web services for daily operations, network diagnostics, and digital survival. 🛡️💻
+A highly curated directory of standalone open-source software, cloud services, and technical guides for daily operations, systems administration, and digital survival. 🛡️💻
 
 ---
 
@@ -18,104 +18,135 @@ A highly curated collection of essential open-source software, sysadmin tools, a
 
 ## 📑 Contents 🧭
 
-- 💻 [Local Desktop Applications & Tools](#-local-desktop-applications--tools)
-  - 🔐 [Security, Passwords & Privacy](#-security-passwords--privacy)
-  - 🌐 [Network & Remote Access](#-network--remote-access)
-  - 🛠️ [System Triage, Recovery & Utilities](#️-system-triage-recovery--utilities)
-  - 🚀 [Productivity, Media & Workflow](#-productivity-media--workflow)
-- ☁️ [Web Services, Portals & Online Resources](#️-web-services-portals--online-resources)
-  - 🛡️ [Security, Intelligence & File Analysis](#️-security-intelligence--file-analysis)
-  - 🕵️‍♂️ [Privacy Guides & Policy Checkers](#️-privacy-guides--policy-checkers)
-  - 📚 [Open Knowledge, Digital Libraries & Indexes](#-open-knowledge-digital-libraries--indexes)
-  - 📦 [Software Discoverability & Package Repositories](#-software-discoverability--package-repositories)
+- 💻 [Desktop Software & CLI Utilities](#-desktop-software--cli-utilities)
+  - 🌐 [Networking & Remote Administration](#-networking--remote-administration)
+  - 🧰 [System Diagnostics, Triage & Recovery](#-system-diagnostics-triage--recovery)
+  - 🔐 [Endpoint Security, Hardening & Privacy](#-endpoint-security-hardening--privacy)
+  - ⚙️ [OS Optimization & Automation Scripts](#️-os-optimization--automation-scripts)
+  - 🚀 [Productivity, Media & Documentation Tools](#-productivity-media--documentation-tools)
+- ☁️ [Web Services, Platforms & Online Tools](#️-web-services-platforms--online-tools)
+  - 🔍 [Privacy-Focused Search Engines](#-privacy-focused-search-engines)
+  - 🧪 [Security Scanners & Threat Intelligence](#-security-scanners--threat-intelligence)
+  - ✉️ [Communication & Privacy-First Web Services](#️-communication--privacy-first-web-services)
+  - 📦 [Package Repositories & Software Discovery](#-package-repositories--software-discovery)
+  - 🤖 [Web Utilities, Translation & AI Tooling](#-web-utilities-translation--ai-tooling)
+  - 📚 [Open Archives, Research & Media Indexes](#-open-archives-research--media-indexes)
+- 📖 [Guides, Reference Matrices & Documentation](#-guides-reference-matrices--documentation)
+  - 🛡️ [Privacy Hardening & Threat Modeling](#️-privacy-hardening--threat-modeling)
+  - 📜 [Service Terms & Telemetry Audits](#-service-terms--telemetry-audits)
 - 🤝 [Contributing](#-contributing)
 - 📝 [License](#-license)
 
 ---
 
-## 💻 Local Desktop Applications & Tools 🖥️
+## 💻 Desktop Software & CLI Utilities 🖥️
 
-Standalone software and utilities designed to run directly on Windows or Linux workstations. ⚙️
+Standalone applications, binaries, and local scripts installed and run on user endpoints.
 
-### 🔐 Security, Passwords & Privacy
+### 🌐 Networking & Remote Administration
 
-- 🗝️ **[KeePassXC](https://keepassxc.org/)** — Offline, cross-platform encrypted password vault.
+- 🦈 **[Wireshark](https://www.wireshark.org/)** — Industry-standard packet capture and deep network protocol analyzer.
+- 🔍 **[Nmap](https://nmap.org/)** — Host discovery, port audit, and vulnerability reconnaissance tool.
+- 📈 **[WinMTR](https://github.com/White-Tiger/WinMTR)** — Integrated real-time traceroute and ping utility for identifying packet loss.
+- 🧰 **[MobaXterm](https://mobaxterm.mobatek.net/)** — Multi-tab remote terminal client with embedded SSH, SFTP, RDP, and X11 server.
+- 📡 **[LocalSend](https://localsend.org/)** — Cross-platform local network file transfer utility operating without cloud relays.
+- 🧅 **[Amnezia VPN](https://amnezia.org/)** — Self-hosted VPN deployment client supporting obfuscated protocol endpoints.
+- 🛡️ **[Mullvad VPN Client](https://mullvad.net/)** — Desktop client for privacy-oriented WireGuard/OpenVPN tunneling.
+- 🔒 **[ProtonVPN Client](https://protonvpn.com/)** — Audited, open-source VPN desktop application backed by a strict no-logs policy.
+- 📥 **[qBittorrent](https://www.qbittorrent.org/)** — Lightweight, ad-free open-source torrent client with integrated search.
+
+### 🧰 System Diagnostics, Triage & Recovery
+
+- 🩻 **[Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/)** — Advanced troubleshooting tools by Mark Russinovich (Process Explorer, Autoruns, TCPView).
+- 🩺 **[CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/)** — Open-source drive health telemetry reader monitoring SMART parameters.
+- 💽 **[GParted](https://gparted.org/)** — Dedicated partition editor for filesystem repair, resizing, and drive partitioning.
+- 🚑 **[Rescuezilla](https://rescuezilla.com/)** — FOSS bare-metal backup, system imaging, and point-in-time drive recovery.
+- 🪛 **[Ventoy](https://www.ventoy.net/)** — Multiboot USB creation tool supporting direct booting from ISO, WIM, and IMG files.
+- ⚡ **[Rufus](https://rufus.ie/)** — Fast, reliable utility to format and burn bootable images to USB storage.
+- 📦 **[VirtualBox](https://www.virtualbox.org/)** — Local hypervisor for hosting sandboxed guest virtual machines.
+
+### 🔐 Endpoint Security, Hardening & Privacy
+
+- 🗝️ **[KeePassXC](https://keepassxc.org/)** — Local, encrypted, and cross-platform password manager.
+- 📲 **[Aegis Authenticator](https://getaegis.app/)** — Open-source, encrypted 2FA authenticator for Android with local export options.
 - 🧱 **[SimpleWall](https://github.com/henrypp/simplewall)** — Lightweight Windows Filtering Platform (WFP) UI for granular host traffic control.
-- 📲 **[Aegis Authenticator](https://getaegis.app/)** — Secure, open-source 2FA authenticator for Android with encrypted local backups.
-- 🧅 **[Amnezia VPN](https://amnezia.org/)** — Client for deploying and connecting to self-hosted, protocol-obfuscated VPN endpoints.
 - 🕵️ **[Tor Browser](https://www.torproject.org/)** — Standalone browser for onion routing and traffic anonymization.
-- 🛡️ **[Mullvad VPN](https://mullvad.net/)** — Desktop client for privacy-oriented WireGuard/OpenVPN tunneling.
-- 🔒 **[ProtonVPN](https://protonvpn.com/)** — Open-source VPN desktop client with strict no-logs infrastructure.
-
-### 🌐 Network & Remote Access
-
-- 🦈 **[Wireshark](https://www.wireshark.org/)** — Interactive packet analyzer and network protocol capture tool.
-- 🔍 **[Nmap](https://nmap.org/)** — Command-line network scanner and host discovery utility.
-- 📈 **[WinMTR](https://github.com/White-Tiger/WinMTR)** — Real-time path tracing utility combining ping and traceroute.
-- 🧰 **[MobaXterm](https://mobaxterm.mobatek.net/)** — Remote management toolbox featuring SSH, SFTP, X11, and RDP.
-- 📡 **[LocalSend](https://localsend.org/)** — Cross-platform local network file transfer utility.
 - 🐺 **[LibreWolf](https://librewolf.net/)** — Hardened, privacy-focused desktop web browser based on Firefox.
 - 🌐 **[Chromium](https://www.chromium.org/)** — Open-source foundation browser engine.
-- 📥 **[qBittorrent](https://www.qbittorrent.org/)** — FOSS BitTorrent client with built-in search and management.
 
-### 🛠️ System Triage, Recovery & Utilities
+### ⚙️ OS Optimization & Automation Scripts
 
-- 🩻 **[Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/)** — Advanced diagnostics for Windows (Process Explorer, Autoruns, TCPView).
-- 🚑 **[Rescuezilla](https://rescuezilla.com/)** — Bootable bare-metal image restore and drive cloning utility.
-- 💽 **[GParted](https://gparted.org/)** — Partition editor for drive management and filesystem repair.
-- 🪛 **[Ventoy](https://www.ventoy.net/)** — Tool to create multiboot USB drives by copying ISO images directly.
-- ⚡ **[Rufus](https://rufus.ie/)** — Fast utility to format and burn bootable images to USB storage.
-- 🩺 **[CrystalDiskInfo](https://crystalmark.info/en/software/crystaldiskinfo/)** — SMART health telemetry reader for storage drives.
-- 📦 **[VirtualBox](https://www.virtualbox.org/)** — Local hypervisor for running sandboxed guest virtual machines.
 - 🧩 **[UniGetUI](https://github.com/marticliment/WingetUI)** — Unified graphical frontend for Winget, Scoop, and Chocolatey.
 - 🧹 **[Win11Debloat](https://github.com/Raphire/Win11Debloat)** — Automation script to strip bloatware and disable telemetry.
 - 🔑 **[MAS (Microsoft Activation Scripts)](https://massgrave.dev/)** — Open-source Windows and Office HWID/Ohook activation utilities.
 
-### 🚀 Productivity, Media & Workflow
+### 🚀 Productivity, Media & Documentation Tools
 
+- 📓 **[Obsidian](https://obsidian.md/)** — Local Markdown-based knowledge base for technical runbooks, architecture notes, and documentation.
 - 🔎 **[Everything](https://www.voidtools.com/)** — Real-time local file indexing and search engine for NTFS.
-- 🧰 **[PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/)** — Power-user system utilities by Microsoft.
-- 📸 **[ShareX](https://getsharex.com/)** — Screen capture, region recording, and automated workflow tool.
-- 🗜️ **[7-Zip](https://www.7-zip.org/)** — High-compression file archiver.
-- 📓 **[Obsidian](https://obsidian.md/)** — Local Markdown-based knowledge base and personal wiki.
+- 🧰 **[PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/)** — System productivity enhancements from Microsoft (FancyZones, Text Extractor, Quick Accent).
+- 📸 **[ShareX](https://getsharex.com/)** — Open-source screen capture, region recording, and automated workflow tool.
+- 🗜️ **[7-Zip](https://www.7-zip.org/)** — High-compression file archiver supporting standard formats.
 - 📖 **[Koodo Reader](https://koodo.960960.xyz/)** — Cross-platform document and e-book reader.
-- 🎬 **[MPC-HC](https://github.com/clsid2/mpc-hc)** — Lightweight media playback software.
+- 🎬 **[MPC-HC](https://github.com/clsid2/mpc-hc)** — Extremely lightweight classic media player.
 - 🖼️ **[Nomacs](https://nomacs.org/)** — Fast image viewer supporting RAW and standard formats.
 - 🎥 **[OBS Studio](https://obsproject.com/)** — Screen recording and video streaming software.
 
 ---
 
-## ☁️ Web Services, Portals & Online Resources 🌍
+## ☁️ Web Services, Platforms & Online Tools 🌍
 
-Cloud services, online platforms, reference databases, and browser-accessible tools. 🛸
+Browser-accessible services, online scanners, package web frontends, and searchable indexes.
 
-### 🛡️ Security, Intelligence & File Analysis
+### 🔍 Privacy-Focused Search Engines
 
-- 🧪 **[VirusTotal](https://www.virustotal.com/gui/)** — Online multi-engine scanner for suspicious files, hashes, URLs, and IP addresses.
+- 🦁 **[Brave Search](https://search.brave.com/)** — Independent search engine built on its own web index, preserving privacy without profiling users.
+- 🛡️ **[Startpage](https://www.startpage.com/)** — Privacy search portal delivering Google search results with total tracking protection and zero logging.
+- 🧅 **[4get](https://4get.ca/)** — Lightweight, open-source proxy meta-search engine scraping results without ads, trackers, or client-side scripts.
+
+### 🧪 Security Scanners & Threat Intelligence
+
+- 🧪 **[VirusTotal](https://www.virustotal.com/gui/)** — Aggregate online engine scanning files, URLs, and IP addresses across dozens of antivirus feeds.
+
+### ✉️ Communication & Privacy-First Web Services
+
 - ✉️ **[ProtonMail](https://mail.proton.me/)** — Webmail platform featuring zero-access encryption.
-- 💬 **[Messaging Apps Privacy Matrix](https://privacyspreadsheet.com/messaging-apps)** — Comparative online matrix of communications security protocols.
-- 🎯 **[Search Engine Party](https://searchengine.party/)** — Deep-dive matrix analyzing search engine tracking and telemetry.
+- 🔒 **[ProtonVPN](https://protonvpn.com/)** — Highly secure, open-source VPN web portal based in Switzerland with a strict no-logs policy.
+- 🛡️ **[Mullvad VPN](https://mullvad.net/)** — Privacy-first VPN service that requires no personal data (not even an email) to generate an account.
 
-### 🕵️‍♂️ Privacy Guides & Policy Checkers
+### 📦 Package Repositories & Software Discovery
 
-- 🛡️ **[Privacy Guides](https://www.privacyguides.org/)** — Non-profit resource providing curated recommendations for data protection.
-- 📜 **[Terms of Service; Didn't Read](https://tosdr.org/)** — Transparency portal summarizing and grading privacy policies.
-- 🧗 **[The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html)** — Comprehensive online documentation on digital footprint reduction.
+- 🪟 **[winget.run](https://winget.run/)** — Web package directory and visual explorer for Windows Package Manager.
+- 🛠️ **[winstall.app](https://winstall.app/)** — Web GUI to generate bulk Winget installation scripts.
+- 🔄 **[AlternativeTo](https://alternativeto.net/)** — Community-driven platform finding alternatives to proprietary tools.
 
-### 📚 Open Knowledge, Digital Libraries & Indexes
+### 🤖 Web Utilities, Translation & AI Tooling
+
+- 🌍 **[DeepL](https://www.deepl.com/)** — Neural translation service producing natural-sounding multilingual text.
+- 🤖 **[Prompt Cowboy](https://www.promptcowboy.ai/)** — Web generator for engineering structured LLM prompts.
+
+### 📚 Open Archives, Research & Media Indexes
 
 - 🏛️ **[Anna's Archive](https://annas-archive.org/)** — Metasearch engine indexing public domain documents and open libraries.
 - 📚 **[Z-Library](https://z-library.sk/)** — Online repository of literature, articles, and research texts.
 - 🏴‍☠️ **[YarrList](https://github.com/yarrlist/YarrList)** — Directory aggregating links to web resources and indexes.
-- 🌍 **[DeepL](https://www.deepl.com/)** — Online neural translation service for natural-language text.
-- 🤖 **[Prompt Cowboy](https://www.promptcowboy.ai/)** — Web generator for engineering structured LLM prompts.
-- 🎵 **[We Are Jammin](https://we-are-jammin.xyz/)** — Web music player experiment. 🇯🇲
 
-### 📦 Software Discoverability & Package Repositories
+---
 
-- 🔄 **[AlternativeTo](https://alternativeto.net/)** — Community-driven platform finding alternatives to proprietary tools.
-- 🪟 **[winget.run](https://winget.run/)** — Web package directory and visual explorer for Windows Package Manager.
-- 🛠️ **[winstall.app](https://winstall.app/)** — Web GUI to generate bulk Winget installation scripts.
+## 📖 Guides, Reference Matrices & Documentation 🧭
+
+Comparative matrices, comprehensive manuals, and privacy audit portals.
+
+### 🛡️ Privacy Hardening & Threat Modeling
+
+- 🛡️ **[Privacy Guides](https://www.privacyguides.org/)** — Curated, non-profit knowledge base for host hardening and data privacy.
+- 💬 **[Messaging Apps Privacy Matrix](https://privacyspreadsheet.com/messaging-apps)** — Detailed comparative matrix of communications security protocols.
+- 🧗 **[The Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html)** — Comprehensive documentation on digital footprint reduction and operational security.
+
+### 📜 Service Terms & Telemetry Audits
+
+- 📜 **[Terms of Service; Didn't Read](https://tosdr.org/)** — Transparency portal summarizing and grading privacy policies.
+- 🎯 **[Search Engine Party](https://searchengine.party/)** — Deep-dive matrix analyzing search engine tracking and telemetry.
 
 ---
 
