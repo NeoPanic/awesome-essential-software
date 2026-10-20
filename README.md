@@ -98,6 +98,7 @@ Standalone applications, binaries, and local scripts installed and run on user e
 - 🔄 **[File Converter](https://file-converter.io/)** — Windows Explorer context-menu utility for quick local file conversion and compression.
 - 🎮 **[Prism Launcher](https://prismlauncher.org/)** — Custom open-source Minecraft launcher with multi-instance and mod management.
 - 📖 **[Koodo Reader](https://koodo.960960.xyz/)** — Cross-platform document and e-book reader.
+- 📄 **[Glim](https://github.com/NeoPanic/Glim)** — Free, MIT-licensed macOS file viewer for Markdown, PDFs, source code, and data files, with Apple Silicon and Intel downloads.
 - 🎬 **[MPC-HC](https://github.com/clsid2/mpc-hc)** — Extremely lightweight classic media player.
 - 🖼️ **[Nomacs](https://nomacs.org/)** — Fast image viewer supporting RAW and standard formats.
 - 🎥 **[OBS Studio](https://obsproject.com/)** — Screen recording and video streaming software.
